@@ -9,6 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="557,359,0,0" Text="Please Enter Your Name" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Left" Margin="557,500,0,0" Text="TextBox" VerticalAlignment="Top" Width="251"/>
+        <Button x:Name="OK" Content="OK" HorizontalAlignment="Left" Margin="857,501,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,-0.363" Click="okClick"/>
 
     </Grid>
 </Page>
